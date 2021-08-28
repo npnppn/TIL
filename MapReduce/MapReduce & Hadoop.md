@@ -18,3 +18,5 @@
 - 필요하다면 setup() and cleanup()을 수행할 수 있다.  
 setup() : 모든 map 함수들이 공유하는 자료구조를 초기화 -> 첫 Map함수나 Reduce함수가 호출되기 전에 맨 먼저 수행  
 cleanup() : 모든 map 함수들이 공유하는 자료구조의 결과를 출력 -> 마지막 Map함수나 Reduce함수가 끝나고 나면 수행
+
+## wordcount, wordsort, inverted 예제 다시 풀어보기.
