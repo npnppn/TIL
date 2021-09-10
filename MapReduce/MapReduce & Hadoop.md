@@ -20,3 +20,5 @@ setup() : 모든 map 함수들이 공유하는 자료구조를 초기화 -> 첫 
 cleanup() : 모든 map 함수들이 공유하는 자료구조의 결과를 출력 -> 마지막 Map함수나 Reduce함수가 끝나고 나면 수행
 
 ## wordcount, wordsort, inverted 예제
+
+하둡으로 데이터 어떻게 처리하는지 공부해볼것!
