@@ -16,26 +16,20 @@ Flex의 속성들은,
 
 1. display: flex;
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ad2401b8-1b22-4143-a223-486e6f3ce413/Untitled.png)
-
 1. flex-direction; → 배치 방향 설정
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e86d2e62-2173-4888-870b-9f7587643fdc/Untitled.png)
 
 1. flex-wrap; → 줄넘김 처리 설정
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9b26cd3-2840-48d7-8e1e-a641eb975cb9/Untitled.png)
 
 1. flex-flow; → 방향과 wrap을 한번에 해줄 수 있는 설정
 2. justify-content → 메인축 방향 정렬
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fd1da4a9-cf2d-4336-abe4-adfdfbd56f9d/Untitled.png)
 
 이렇게 6종류 있는데.. 이름보면 느낌 알제?
 
 1. align-items → 수직축 방향 정렬
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/709ff041-b101-4cab-9d55-5b4a19c65d4e/Untitled.png)
 
 쭈욱 늘어나는 느낌으로!
 
@@ -52,21 +46,15 @@ align-item: center;
 1. flex-basis → 아이템의 기본 크기를 설정
 2. flex-grow → flex-basis보다 크기 늘려주는.. 쭈욱 아이템이 늘어남
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/30be5069-8843-445f-bb44-f541cc4767ef/Untitled.png)
+
 
 0일 때
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2fea1b46-eba0-4d29-94d0-55572dc424aa/Untitled.png)
 
 1일 때
 
 1. flex-shrink → flex-basis보다 크기 줄여주는.. 쭈욱 아이템이 줄어듬
 2. flex → flex-grow, flex-shrink, flex-basis를 한 번에 쓸 수 있는 축약형 속성
 3. align-self → 수직축으로 아이템 정렬
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2da9d01f-04d2-4103-81b3-cfd3b9941367/Untitled.png)
-    
-    이런식으로
-    
 4. order → 시각적 나열 순서
 5. z-index → 숫자 클수록 위로 나타남
