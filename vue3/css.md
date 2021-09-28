@@ -4,3 +4,69 @@ Flex에 관한 오해
 글쎄..?
 
 더 나중에 나온 스펙인 Grid로도 Flex와 똑같이 구현할 수 있는 경우가 많지만, Grid로는 구현이 어려운 레이아웃이거나 Flex를 쓰는게 더 편리한 경우도 있습니다. 그리고 마소가 싼 똥 버렸지만 우리는 여전히 지원해줘야 하는 인터넷 익스플로러(IE)같은 경우는 Flex는 표준 스펙을 지원하지만 Grid는 legacy(고인물) 버전만 지원하기 때문에, 둘 다 잘 알아두고 적재적소에 활용하는 것이 가장 좋다고 생각돼요.
+
+Flex의 속성들은,
+
+- 컨테이너에 적용하는 속성
+- 아이템에 적용하는 속성
+
+이렇게 2가지로 나뉜다!!
+
+### 1) 컨테이너에 적용하는 속성
+
+1. display: flex;
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ad2401b8-1b22-4143-a223-486e6f3ce413/Untitled.png)
+
+1. flex-direction; → 배치 방향 설정
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e86d2e62-2173-4888-870b-9f7587643fdc/Untitled.png)
+
+1. flex-wrap; → 줄넘김 처리 설정
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9b26cd3-2840-48d7-8e1e-a641eb975cb9/Untitled.png)
+
+1. flex-flow; → 방향과 wrap을 한번에 해줄 수 있는 설정
+2. justify-content → 메인축 방향 정렬
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fd1da4a9-cf2d-4336-abe4-adfdfbd56f9d/Untitled.png)
+
+이렇게 6종류 있는데.. 이름보면 느낌 알제?
+
+1. align-items → 수직축 방향 정렬
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/709ff041-b101-4cab-9d55-5b4a19c65d4e/Untitled.png)
+
+쭈욱 늘어나는 느낌으로!
+
+justify-content: center;
+
+align-item: center;
+
+이렇게 두개를 쓰면 아이템을 한가운데에 정렬!
+
+1. align-content → 여러 행 정렬
+
+### 2) 아이템에 적용하는 속성
+
+1. flex-basis → 아이템의 기본 크기를 설정
+2. flex-grow → flex-basis보다 크기 늘려주는.. 쭈욱 아이템이 늘어남
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/30be5069-8843-445f-bb44-f541cc4767ef/Untitled.png)
+
+0일 때
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2fea1b46-eba0-4d29-94d0-55572dc424aa/Untitled.png)
+
+1일 때
+
+1. flex-shrink → flex-basis보다 크기 줄여주는.. 쭈욱 아이템이 줄어듬
+2. flex → flex-grow, flex-shrink, flex-basis를 한 번에 쓸 수 있는 축약형 속성
+3. align-self → 수직축으로 아이템 정렬
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2da9d01f-04d2-4103-81b3-cfd3b9941367/Untitled.png)
+    
+    이런식으로
+    
+4. order → 시각적 나열 순서
+5. z-index → 숫자 클수록 위로 나타남
