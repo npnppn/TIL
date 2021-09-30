@@ -61,7 +61,7 @@ align-item: center;
 
 
 
-display:table : 다른 요소를 table태그 속성으로 바꿔주는 역할
-display:table-cell : 다른 요소를 tr, td 속성으로 바꿔주는 역할
-table표 안에 있는 것처럼 바꿔서 쉽게 정렬 할 수 있게 할때 쓰인다.
+display:table : 다른 요소를 table태그 속성으로 바꿔주는 역할  
+display:table-cell : 다른 요소를 tr, td 속성으로 바꿔주는 역할  
+table표 안에 있는 것처럼 바꿔서 쉽게 정렬 할 수 있게 할때 쓰인다.  
 td에서 정렬은 text-align:center; vertical-align:middle; 으로 간단하게 가로/세로정렬이 가능하다.
