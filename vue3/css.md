@@ -57,4 +57,11 @@ align-item: center;
 2. flex → flex-grow, flex-shrink, flex-basis를 한 번에 쓸 수 있는 축약형 속성
 3. align-self → 수직축으로 아이템 정렬
 4. order → 시각적 나열 순서
-5. z-index → 숫자 클수록 위로 나타남
+5. z-index → 숫자 클수록 위로 나타남  
+
+
+
+display:table : 다른 요소를 table태그 속성으로 바꿔주는 역할
+display:table-cell : 다른 요소를 tr, td 속성으로 바꿔주는 역할
+table표 안에 있는 것처럼 바꿔서 쉽게 정렬 할 수 있게 할때 쓰인다.
+td에서 정렬은 text-align:center; vertical-align:middle; 으로 간단하게 가로/세로정렬이 가능하다.
