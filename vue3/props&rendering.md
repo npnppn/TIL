@@ -8,4 +8,5 @@ props를 사용하여 부모 자식 양방향 사이에 데이터를 전달하�
 
 
 ## 렌더링 과정 이해하기  
-https://pinokio0702.tistory.com/363
+https://pinokio0702.tistory.com/363  
+https://bbosong-develop.tistory.com/3
