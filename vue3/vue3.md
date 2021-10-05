@@ -462,4 +462,7 @@ errorCaptured -> onErrorCaptured
 
 각 기능(something 1 ~ 3)별로 나누어 코드를 작성할 수 있습니다.
 
-https://geundung.dev/102 블로그를 참고하였습니다.
+https://geundung.dev/102 블로그를 참고하였습니다.  
+
+뷰차트  
+https://jeongwooahn.medium.com/vue-js-%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%A0-%EC%B0%A8%ED%8A%B8-%EC%B6%94%EC%B2%9C-4390f704bc7b
