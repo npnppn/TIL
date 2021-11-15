@@ -39,5 +39,12 @@ PyQT를 사용해서 얻을 수 있는 가장 큰 이점 중 하나는 쉽고 �
   - 파이썬에서 병렬 처리를 지원하는 프레임워크들의 기반이 된다.
 
 
+### 파이썬에서 비동기 함수를 사용하기 위한 방법을 요약하면 아래와 같다.
+- import asyncio  
+- def 대신 async def로 함수 선언  
+- 비동기 함수의 결과를 기다려야 할 때는 await  
+- asyncio.gather() 함수를 이용해 여러 비동기 함수 동시 등록  
+- asyncio.run() 함수를 이용해 비동기 함수 실행  
+
 https://wikidocs.net/book/2165  
 https://wikidocs.net/35491
