@@ -64,5 +64,3 @@ PyQt5
 - asyncio.gather() 함수를 이용해 여러 비동기 함수 동시 등록  
 - asyncio.run() 함수를 이용해 비동기 함수 실행  
 
-https://wikidocs.net/book/2165  
-https://wikidocs.net/35491
